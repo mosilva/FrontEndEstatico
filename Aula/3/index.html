@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplos</title>
+  </head>
+  <body>
+    <h1>Lista ordernada</h1>
+    <div>
+      <h2>Instrumentos do mais grave ao mais agudo</h2>
+    </div>
+    <div>
+      <ol>
+        <li>Tuba</li>
+        <li>Trombone</li>
+        <li>Trompa</li>
+        <li>Trompete</li>
+      </ol>
+    </div>
+    <div>
+      <h2>Instrumentos do mais grave ao mais agudo</h2>
+    </div>
+    <div>
+      <ol type="I" start="5">
+        <li>Tuba</li>
+        <li>Trombone</li>
+        <li>Trompa</li>
+        <li>Trompete</li>
+      </ol>
+    </div>
+    <div>
+      <h2>Instrumentos do mais grave ao mais agudo</h2>
+    </div>
+    <div>
+      <ol type="I" reversed>
+        <li>Tuba</li>
+        <li>Trombone</li>
+        <li>Trompa</li>
+        <li>Trompete</li>
+      </ol>
+    </div>
+    <div>
+      <h2></h2>
+    </div>
+
+    <h1>Lista não ordernada</h1>
+    <div>
+      <h2>Itens de compra</h2>
+    </div>
+    <ul type="square">
+      <li>Derivado de leites</li>
+      <li>Frutas</li>
+      <li>Carnes</li>
+    </ul>
+    <div>
+      <h2>Itens de compra</h2>
+    </div>
+    <ul>
+      <li>Derivado de leites</li>
+      <ul>
+        <li>Manteiga</li>
+        <li>Queijo</li>
+        <li>Iogurte</li>
+        <ul>
+          <li>Danone</li>
+          <li>Batavo</li>
+        </ul>
+      </ul>
+      <li>Frutas</li>
+      <li>Carnes</li>
+    </ul>
+
+    <h1>Lista de definição</h1>
+    <div>
+      <h2>Instrumentos breve descrição</h2>
+    </div>
+    <dl>
+      <dt>Trombone</dt>
+      <dd>Instrumento muito antigo, surgiu na idade média</dd>
+    </dl>
+
+    <h1>Link</h1>
+    <a href="https://github.com/mosilva">Acesse meu github na mesma guia</a
+    ><br />
+    <a href="https://github.com/mosilva" target="_blank"
+      >Acesse meu github em outra guia</a
+    ><br />
+    <a href="https://github.com/mosilva" target="_top"
+      >Acesse meu github em outra guia</a
+    ><br />
+
+    <button value="Voltar">
+      <a
+        href="../2/cssExemplo.html"
+        style="text-decoration: none; font-weight: bold"
+        >Voltar</a
+      >
+    </button>
+    
+    <br />
+    
+    <button value="voltar">
+      <a asp-action="ccsExemplo" class="btn btn-info">Back to List</a>
+    
+    </button>
+    <br />
+    
+    <form action="../2/cssExemplo.html">
+      <input type="submit" value="Go to Google" />
+    </form>
+    
+    <br />
+    
+    <h2>Link para Download</h2>
+    <a
+      href="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/11/thinkstockphotos-4549879531.jpeg"
+      download
+      >Clique aqui para baixar a imagem</a
+    >
+    <br />
+    <p>Click the image ! You can download!</p>
+    <a
+      download="logo.png"
+      href="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/11/thinkstockphotos-4549879531.jpeg"
+      title="Logo title"
+    >
+      <img
+        alt="logo"
+        src="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/11/thinkstockphotos-4549879531.jpeg"
+      />
+    </a>
+  </body>
+</html>
