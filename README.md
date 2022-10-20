@@ -12,4 +12,8 @@
 <br/>
 <li><a href = "https://mosilva.github.io/FrontEndEstatico/Desafio/2/Desafio3/Desafio3"> Desafio 3<a/></li>
 </ol>
+<h3>Aula 3<h3/>
+<ol type = "i">
+<li><a href = "https://mosilva.github.io/FrontEndEstatico/Desafio/3/Desafio3Aula3.html"> Desafio 1<a/></li>
+<br/>
 
