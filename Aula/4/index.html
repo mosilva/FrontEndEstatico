@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="StyleSheetAula4.css" />
+    <title>Aula 04</title>
+  </head>
+  <body>
+    <div>
+      <h1>Produto XPTO</h1>
+      <p>
+        Mussum Ipsum, cacilds vidis litro abertis. Sapien in monti palavris qui
+        num significa nadis i pareci latim.
+      </p>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+          <th colspan="2">Produto X</th>
+          <th colspan="2" rowspan="2">Concorrente 1</th>
+          <th colspan="2" rowspan="2">Concorrente 2</th>
+        </tr>
+        <tr>
+          <th>Grátis</th>
+          <th>Premium</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Recurso 1</td>
+          <td>X</td>
+          <td></td>
+          <td colspan="2"></td>
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td>Recurso 2</td>
+          <td>X</td>
+          <td></td>
+          <td colspan="2">X</td>
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td>Recurso 3</td>
+          <td></td>
+          <td></td>
+          <td colspan="2"></td>
+          <td colspan="2">X</td>
+        </tr>
+        <tr>
+          <td>Recurso 4</td>
+          <td>X</td>
+          <td>X</td>
+          <td colspan="2">X</td>
+          <td colspan="2">X</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <form>
+      <div>
+        <label>Selecione um produto </label>
+        <select name="produtos">
+          <option>Selecione..</option>
+          <option value="caderno">Caderno</option>
+          <option value="caneta">Caneta</option>
+          <option value="lapis">Lápis</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input name="reset" type="reset" value="limpar" onclick="function()" />
+        <input
+          name="submit"
+          type="submit"
+          value="submeter"
+          onclick="function()"
+        />
+      </div>
+    </form>
+    <br />
+    <form>
+      <label>Nome completo </label>
+      <input type="text" placeholder="Seu nome é..." required />
+      <br /><br />
+      <label>CPF</label>
+      <input type="text" placeholder="Digite o CPF..." required />
+      <br /><br />
+      <label>Email</label>
+      <input type="email" placeholder="Seu nome e-mail é..." required />
+      <br /><br />
+      <input type="submit" value="Cadastrar" />
+      <input type="reset" value="Limpar" />
+    </form>
+  </body>
+</html>
