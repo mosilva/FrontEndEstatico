@@ -1,0 +1,52 @@
+#Widdershins { 
+    z-index:12;
+    position: absolute; 
+    left: 20vw; 
+    top: 20vh;
+    width: 30%; 
+    min-height: 30%;
+}
+
+#WiddershinsVideo{
+    z-index:11;    
+}
+
+#WireCutters { 
+    z-index:10;
+    position: absolute;
+    left: 20vw; 
+    top: 52vh;
+    width: 30%; 
+    min-height: 30%;
+}
+
+#WireCuttersVideo { 
+    z-index:9;
+}
+
+#DinnerForFew { 
+    z-index:8;
+    position: absolute;
+    left: 51vw; 
+    top: 20vh;
+    width: 30%; 
+    min-height: 30%;
+}
+
+#DinnerForFewVideo { 
+    z-index:7;
+}
+
+#LostSouls { 
+    z-index:6;
+    position: absolute;
+    left: 51vw; 
+    top: 52vh;
+    width: 30%; 
+    min-height: 30%;
+}
+
+#LostSoulsVideo { 
+    z-index:5;
+}
+
