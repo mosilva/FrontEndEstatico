@@ -18,7 +18,7 @@
 </ol>
 <h3>Aula 4<h3/>
 <ol type = "i">
-<li><a href = "https://mosilva.github.io/FrontEndEstatico/Exercicio/4/Exercicio1/exercicio1Aula3.html" target="_blank"> Questão 1<a/></li>
-<li><a href = "https://mosilva.github.io/FrontEndEstatico/Exercicio/4/Exercicio1/index.html" target="_blank"> Questão 2<a/></li>
+<li><a href = "https://mosilva.github.io/FrontEndEstatico/Exercicio/4/Exercicio1/index.html" target="_blank"> Questão 1<a/></li>
+<li><a href = "https://mosilva.github.io/FrontEndEstatico/Exercicio/4/Exercicio2/index.html" target="_blank"> Questão 2<a/></li>
 <li><a href = "https://mosilva.github.io/FrontEndEstatico/Desafio/4/index.html" target="_blank"> Desafio 1<a/></li>
 </ol>
