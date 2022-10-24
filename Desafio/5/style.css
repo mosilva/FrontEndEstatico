@@ -1,0 +1,96 @@
+body{
+    background: #E9C46A;
+}
+
+.title-principal{
+    background: #E76F51;
+    padding-left: 5%;
+}
+
+#fruitAndVegetables{
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 40%;
+    height: 30%;
+}
+
+.apresentation{    
+    display: inline-block;
+    margin-top: 1%;
+    vertical-align: top;
+    text-align: justify;
+    width: 40%;
+    height: 30%;
+}
+
+
+p {
+    vertical-align: top;
+}   
+
+#definicao{
+    font-size: 20px;
+}
+
+em strong{
+    color: #264653
+}
+
+a{
+    color: #000000;
+}
+
+button{
+    background: #CCCCCC;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.articleItens{
+    background-color: #264653;
+    padding: 3%;
+}
+
+.title-center{
+    color: #E76F51;
+    text-align: center;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0,5px;
+}
+
+.imageFruit{
+    border: #E76F51 solid 2vh;
+    height: 50vh;
+    width: 50vh;
+    margin-left: 8%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align:  top;
+    font-size: large;
+    width: 20%;
+    margin-right: 3%;
+    margin-left: 4%;
+}
+
+.imageItem{
+    border: #E76F51 solid 2vh;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 10%;
+    margin-left: -20%;
+}
+
+.imageVegetable{    
+    border: #E76F51 solid 2vh;
+    height: 50vh;
+    width: 50vh;
+}
+
+footer{
+
+    text-align: right;
+}
