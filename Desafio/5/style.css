@@ -179,7 +179,23 @@ form label, form legend{
     transform: scale(1.2);
 }
 
+.backHome{
+    width: 30%;
+    margin: 0 0 0 100px;
+    padding: 15px 0;
+    background: #E76F51;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
 
+.backHome:hover{
+    transform: scale(1.2);
+}
 
 footer{
     text-align: center;

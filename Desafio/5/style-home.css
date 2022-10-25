@@ -1,10 +1,50 @@
-body{
-    background: #E9C46A;
+main{
+    background: #E9C46A
 }
 
 header{
     background: #264653;
-    padding: 40px 0;
+    padding: 20px 0;
+}
+
+.imageLogo{
+    border: #E76F51 solid 5px;
+    margin-left: 1vw;
+}
+
+.imageLogo:hover{
+    transform: scale(1.2);
+}
+
+.box{
+    position: relative;
+    width: 940 px;
+    margin: 0 50px;
+}
+
+nav{
+    position: absolute;
+    top: 18vh;
+    right: 1vw;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 25px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #E76F51;
+    text-decoration: underline;
 }
 
 .title-principal{
@@ -14,7 +54,8 @@ header{
 }
 
 #fruitAndVegetables{
-    margin: 2% 5% 3% 10%;
+    border: #E76F51 solid 2vh;
+    margin: 2% 5% 3% 8%;
     width: 40%;
     height: 30%;
 }
@@ -103,7 +144,7 @@ button{
     margin-left: 8%;
 }
 
-ul{
+.caracteritcs{
     display: inline-block;
     vertical-align:  top;
     font-size: large;
