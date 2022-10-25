@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="style.css">
+    <title>Products & Contact</title>
+</head>
+<body>
+    <header>
+        <div class = "box">
+            <h1> <img class = "imageLogo" src="./Images/fruitAndVegetablesLogo.jpg" alt="Brand logo Fruits And Vegetables">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ProductsAndContact.html">Buy fruits and Vegetables</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <ul class="listProducts">
+                <li>
+                    <h2>Strawberry</h2>
+                    <img class = "imageFruitsVegetables" src="./Images/StawberryLittle.jpg">
+                    <p class="product-description">Strawberries are from São Paulo.</p>
+                    <p class="product-price">Box - R$ 5,00</p>
+                </li>
+                <li>
+                    <h2>Orange</h2>
+                    <img class = "imageFruitsVegetables" src ="./Images/OrangeLittle.jpg">
+                    <p class="product-description">The oranges are from MG.</p>
+                    <p class="product-price">R$ 2,50/kg</p>
+                </li>
+                <li>
+                    <h2>Banana</h2>
+                    <img  class = "imageFruitsVegetables" src="./Images/BananaLittle.jpg">
+                    <p class="product-description">The bananas are from São Paulo.</p>
+                    <p class="product-price">R$ 6,00/kg</p>
+                </li>
+                <br/><br/><br/><br/>
+                <li>
+                    <h2>Carrot</h2>
+                    <img class = "imageFruitsVegetables" src="./Images/CarrotLittle.jpg">
+                    <p class="product-description">The carrots are from Goiás.</p>
+                    <p class="product-price">R$ 2,50/kg</p>
+                </li>
+                <li>
+                    <h2>Lettuce</h2>
+                    <img class = "imageFruitsVegetables" class = "imageFruitsVegetables" src="./Images/LettuceLittle.JPG">
+                    <p class="product-description">The Lettuces are from SP.</p>
+                    <p class="product-price">R$ 1,50/kg</p>
+                </li>
+                <li>
+                    <h2>Potato</h2>
+                    <img class = "imageFruitsVegetables" src="./Images/PotatoLittle.jpg">
+                    <p class="product-description">A typicals potatos are from RS.</p>
+                    <p class="product-price">R$ 5,00/kg</p>
+                </li>
+            </ul>
+        </section>
+
+        <article id="purchaseOrder">
+            <h1 id="titlePurchase">PURCHASE ORDER</h1>
+            <br/><br/>
+            <form>
+                <label for="fullName">Full name</label>
+                <input type="text" id="fullName" class="input-default" 
+                placeholder="Enter the full name without abbreviations" 
+                required>
+
+                <label for="email">Email</label>    
+                <input type="email" id="email" class="input-default" 
+                placeholder="example, youremail@domain.com"
+                required>
+
+                <label for="telephone">Cell</label>
+                <input type="tel" id="telephone" class="input-default" 
+                placeholder="+XX (XX) XXXXX-XXXX"
+                required>
+
+                <label for="purchase">Purchase</label>
+                <textarea cols="70" rows="20" class="input-default"></textarea>
+                 
+                <fieldset>
+                    <legend>How do you prefer to be contacted from a Sales Person?</legend>
+                    <label for="radio-email"><input type="radio" name ="contact" value="Email" id="radio-email">
+                    Email</label>                    
+
+                    <label for="radio-cell"><input type="radio" name ="contact" value="Cell" id="radio-cell">
+                    Cell</label>
+                    
+                    <label for="radio-whatsapp">
+                    <input type="radio" name ="contact" value="WhatsApp" id="radio-whatsapp" checked>
+                    WhatsApp</label>                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>What time do you prefer us to contact you?</legend>
+                    <select>
+                        <option>Morning</option>
+                        <option>Afternoon </option>
+                        <option>Night</option>
+                    </select>
+                 </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>Would you like to receive our newsletters by e-mail?</label>
+                
+
+                <br/>    
+                
+                <input type="submit" value="send purchase order">
+
+
+            </form>
+
+
+
+
+
+        </article>
+
+
+
+
+    </main>
+
+    <footer>
+        <img class="logoFooter" src="./Images/fruitAndVegetablesLogoFV.jpg" alt="Brand logo Fruits And Vegetables">
+        <p class ="copyright">&copy; Copyright - Brazilian Farmers Ltda. - 2022</p>
+    </footer>
+</body>
+</html>
