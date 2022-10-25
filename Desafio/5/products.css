@@ -1,0 +1,114 @@
+main{
+    background: #E9C46A
+}
+
+header{
+    background: #264653;
+    padding: 20px 0;
+}
+
+.imageLogo{
+    border: #E76F51 solid 5px;
+    margin-left: 1vw;
+}
+
+.box{
+    position: relative;
+    width: 940 px;
+    margin: 0 50px;
+}
+
+nav{
+    position: absolute;
+    top: 18vh;
+    right: 5vw;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 25px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #E76F51;
+    text-decoration: underline;
+}
+
+.listProducts{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.listProducts li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 30px;
+}
+
+.listProducts li:hover{
+    border-color:#264653;
+    border-width: 3px;
+}
+
+.listProducts li:active{
+    border: 4px solid #2A9D8F;
+}
+
+.listProducts li:hover h2{
+    color: #E76F51;
+    font-size: 34px;
+}
+
+.imageFruitsVegetables{
+    width: 250px;
+    height: 250px;
+}
+
+.listProducts h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.product-description{
+    font-size: 18px;
+}
+
+.product-price{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+
+footer{
+    text-align: center;
+    background: #264653;
+    padding: 40px 0;
+}
+
+.logoFooter{
+    width: 90px;
+    height: 80px;
+}
+
+.copyright{
+    font-size: 15px;
+    margin: 20px 0 0 ;
+    font-weight: bold;
+}

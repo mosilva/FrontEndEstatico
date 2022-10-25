@@ -2,29 +2,54 @@ body{
     background: #E9C46A;
 }
 
+header{
+    background: #264653;
+    padding: 40px 0;
+}
+
 .title-principal{
-    background: #E76F51;
-    padding-left: 5%;
+    font-size: 30px;
+    text-align: center;
+    color: #E76F51;
 }
 
 #fruitAndVegetables{
-    margin-left: 10%;
-    margin-right: 5%;
+    margin: 2% 5% 3% 10%;
     width: 40%;
     height: 30%;
 }
 
+Section{
+    padding: 1% 2% 2% 2%;
+}
+
 .apresentation{    
     display: inline-block;
-    margin-top: 1%;
     vertical-align: top;
     text-align: justify;
     width: 40%;
     height: 30%;
 }
 
+#BuyProducts a{
+    padding: 800px 0 0 190px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+
+}
+
+#BuyProducts a:hover{
+    text-decoration: underline;
+    padding: 800px 0 0 190px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #E76F51;
+}
 
 p {
+    margin-left: -8%;
+    font-size: 22px;
     vertical-align: top;
 }   
 
@@ -53,8 +78,19 @@ button{
     padding: 3%;
 }
 
-.title-center{
+.title-center1{
     color: #E76F51;
+    margin: 20px 0 0 0;
+    font-size: 26px;
+    text-align: center;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0,5px;
+}
+
+.title-center2{
+    color: #E76F51;
+    margin: 0 0 25px 0;
+    font-size: 26px;
     text-align: center;
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: 0,5px;
@@ -76,12 +112,16 @@ ul{
     margin-left: 4%;
 }
 
+ul li{
+    font-size: 20px;
+}
+
 .imageItem{
     border: #E76F51 solid 2vh;
     width: 20vw;
     height: 20vw;
     margin-top: 10%;
-    margin-left: -20%;
+    margin-left: -11%;
 }
 
 .imageVegetable{    
@@ -91,6 +131,18 @@ ul{
 }
 
 footer{
+    text-align: center;
+    background: #E9C46A;
+    padding: 40px 0;
+}
 
-    text-align: right;
+.logoFooter{
+    width: 90px;
+    height: 80px;
+}
+
+.copyright{
+    font-size: 15px;
+    margin: 20px 0 0 ;
+    font-weight: bold;
 }
