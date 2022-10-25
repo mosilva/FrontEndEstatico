@@ -131,13 +131,31 @@ ul li{
     width: 50vh;
 }
 
+
 footer{
     text-align: center;
     background: #E9C46A;
     padding: 40px 0;
 }
 
+table{
+    display: inline-block;
+    position: relative;
+    margin: 0 15% 0 0;
+}
+thead{
+    background-color: #264653;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 4px 10px;
+}
+
 .logoFooter{
+    margin: 0 30% 0 0;
     width: 90px;
     height: 80px;
 }

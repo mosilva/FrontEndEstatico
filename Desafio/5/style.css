@@ -12,6 +12,10 @@ header{
     margin-left: 1vw;
 }
 
+.imageLogo:hover{
+    transform: scale(1.2);
+}
+
 .box{
     position: relative;
     width: 940 px;
@@ -77,9 +81,20 @@ nav a:hover{
 }
 
 .imageFruitsVegetables{
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 200px;
+    border: 2px solid #000000
 }
+
+.imageFruitsVegetables:hover{
+    border: 3px solid #264653
+}
+
+.imageFruitsVegetables:active{
+    border: 4px solid #2A9D8F;
+    transform: scale(1.05);
+}
+
 
 .listProducts h2{
     font-size: 30px;
@@ -102,8 +117,17 @@ nav a:hover{
 }
 
 
+#purchaseOrder{
+    border-bottom: 70px solid;
+    border-color: #264653;
+    border-top: 70px solid;
+    border-color: #264653;
+}
+
 #titlePurchase{
-    padding: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 2px;
     font-size: 28px;
 }
 
@@ -116,6 +140,7 @@ form label, form legend{
     display: block;
     font-size: 24px;
     margin: 5px 0 10px 10px;
+
 }
 
 .input-default{
@@ -125,8 +150,33 @@ form label, form legend{
     width: 50%;
 }
 
+#selectTimeContact{
+    font-size: 18px;
+    margin: 0 0 0 15px;
+}
+
+
 .checkbox{
-    margin: 40px 0;
+    margin: 40px 0 40px 10px;
+}
+
+.send{
+    width: 30%;
+    margin: 0 0 0 100px;
+    padding: 15px 0;
+    background: #E76F51;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.send:hover{
+    background: #2A9D8F;
+    transform: scale(1.2);
 }
 
 
@@ -137,7 +187,24 @@ footer{
     padding: 40px 0;
 }
 
+table{
+    display: inline-block;
+    position: relative;
+    margin: 0 15% 0 0;
+}
+thead{
+    background-color: #264653;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 4px 10px;
+}
+
 .logoFooter{
+    margin: 0 30% 0 0;
     width: 90px;
     height: 80px;
 }

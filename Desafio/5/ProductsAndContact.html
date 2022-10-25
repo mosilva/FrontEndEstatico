@@ -88,6 +88,7 @@
                 <label for="purchase">Purchase</label>
                 <textarea cols="70" rows="20" class="input-default"></textarea>
                  
+                <br/>
                 <fieldset>
                     <legend>How do you prefer to be contacted from a Sales Person?</legend>
                     <label for="radio-email"><input type="radio" name ="contact" value="Email" id="radio-email">
@@ -101,28 +102,21 @@
                     WhatsApp</label>                    
                 </fieldset>
 
+                <br/>
                 <fieldset>
                     <legend>What time do you prefer us to contact you?</legend>
-                    <select>
+                    <select id="selectTimeContact">
                         <option>Morning</option>
                         <option>Afternoon </option>
                         <option>Night</option>
                     </select>
                  </fieldset>
                 
-                <label class="checkbox"><input type="checkbox" checked>Would you like to receive our newsletters by e-mail?</label>
-                
-
-                <br/>    
-                
-                <input type="submit" value="send purchase order">
-
+                <label class="checkbox"><input type="checkbox" checked>Would you like to receive our newsletters by e-mail?</label>                            
+               
+                <input type="submit" value="Send Purchase Order" class="send">
 
             </form>
-
-
-
-
 
         </article>
 
@@ -132,6 +126,30 @@
     </main>
 
     <footer>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hour</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday-Friday</td>
+                    <td>8h ~ 18h</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10h ~ 15h</td>
+                </tr>
+                <tr>
+                    <td>Sunday and holidays</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+
         <img class="logoFooter" src="./Images/fruitAndVegetablesLogoFV.jpg" alt="Brand logo Fruits And Vegetables">
         <p class ="copyright">&copy; Copyright - Brazilian Farmers Ltda. - 2022</p>
     </footer>
