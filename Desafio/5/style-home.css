@@ -3,17 +3,19 @@ main{
 }
 
 header{
-    background: #264653;
-    padding: 20px 0;
+    background: linear-gradient(#264653,#E9C46A);
 }
 
 .imageLogo{
-    border: #E76F51 solid 5px;
-    margin-left: 1vw;
+    border: #000000 solid 1px;
+    width: 13em;
+    height: 11em;
+    margin: 3em;
+
 }
 
 .imageLogo:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .box{
@@ -53,7 +55,7 @@ nav a:hover{
     color: #E76F51;
 }
 
-#fruitAndVegetables{
+.fruitAndVegetables{
     border: #E76F51 solid 2vh;
     margin: 2% 5% 3% 8%;
     width: 40%;
@@ -117,11 +119,12 @@ button{
 
 .articleItens{
     font-family: 'Indie Flower', cursive;
-    background-color: #264653;
+    background: linear-gradient(#E9C46A,#264653);
     padding: 3%;
 }
 
 .title-center1{
+    font-family: 'Indie Flower', cursive;
     color: #E76F51;
     margin: 20px 0 0 0;
     font-size: 26px;
@@ -131,7 +134,9 @@ button{
 }
 
 .title-center2{
-    color: #E76F51;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #000000;
     margin: 0 0 25px 0;
     font-size: 26px;
     text-align: center;
@@ -146,7 +151,8 @@ button{
     margin-left: 8%;
 }
 
-.caracteritcs{
+
+.characteristics{
     display: inline-block;
     vertical-align:  top;
     font-size: large;
@@ -155,9 +161,21 @@ button{
     margin-left: 4%;
 }
 
+.itens-characteristics{
+    line-height: 1.5em;
+}
+
+.itens-characteristics:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    color: #264653;
+    text-transform: uppercase;
+}
+
+
 ul li{
     font-size: 22px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .imageItem{
@@ -181,38 +199,37 @@ footer{
     padding: 40px 0;
 }
 
-table{
-    display: inline-block;
-    position: relative;
-    margin: 0 15% 0 0;
-}
-thead{
-    background-color: #264653;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-td, th{
-    border: 1px solid #000000;
-    padding: 4px 10px;
-}
-
 .map{
-    padding: 1em 0 3em;
+padding-bottom: 3em;
+background: linear-gradient(#264653,#264653);
 }
+
 
 .map p{
+    font-family: 'Indie Flower', cursive;
     text-align: center;
     margin: 0  auto;
-    padding: 1.5em 0 1.5em;
+    padding: 0 0 1.5em;
 }
 
 .mapFrame{
-    padding: 0 0 0 15em;
+    width: 940 px;
+    margin-left: 19em;
+}
+
+.title-center3{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: #E76F51;
+    margin: 20px 0 0 0;
+    font-size: 28px;
+    text-align: center;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0,5px;
 }
 
 .videoAgro{
-    background: #264653;
+    background: linear-gradient(#264653,#E9C46A);
 }
 
 .video{
@@ -221,14 +238,39 @@ td, th{
     margin: 2em auto;
 }
 
+.footer-principal{
+    background: linear-gradient(#E9C46A,#E9C46A);
+}
+
+table{
+    display: inline-block;
+    position: relative;
+    margin: 0 15% 0 0;
+}
+
+thead{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+td, th{
+    font-family: 'Indie Flower', cursive;
+    padding: 4px 10px;
+}
+
+
+.logo-copy{
+    display: inline-block;
+    padding-right: 25em;
+}
+
 .logoFooter{
-    margin: 0 30% 0 0;
     width: 90px;
     height: 80px;
 }
 
 .copyright{
     font-size: 15px;
-    margin: 20px 0 0 ;
     font-weight: bold;
+    margin-left: 1em;
 }

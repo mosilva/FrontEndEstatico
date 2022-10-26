@@ -28,7 +28,7 @@
     </header>
 
     <main>
-        <img id="fruitAndVegetables" src ="Images/fruitAndVegetables.jpg" alt="Brand logo Fruits And Vegetables">
+        <img class="fruitAndVegetables" src ="Images/fruitAndVegetables.jpg" alt="Brand logo Fruits And Vegetables">
         <section class="apresentation">
             <h2 class="title-center1">About</h2>
                 <br/>
@@ -49,7 +49,7 @@
                 
                 <br/>
                 <br/>
-            <p id="BuyProducts"><a href="ProductsAndContact.html">Buy Fruit and Vegetables</a></p>
+            <p id="BuyProducts"><a href="ProductsAndContact.html">Buy Fruits and Vegetables</a></p>
         </section>           
 
         <section class="articleItens">
@@ -57,33 +57,37 @@
 
             <img src="./Images/fruit.jpg" class="imageFruit">
             
-            <ul class="caracteritcs">
-                <li>Fresh fruit and vegetables</li>
-                <br/>
-                <li>Quality</li>
-                <br/>
-                <li>Fast delivery</li>
-                <br/>
-                <img class= "imageItem" src="./Images/babyEating.JPG">
-            </ul>
-            
+            <div class="characteristics">
+                <ul class="list-characteristics">
+                    <li class="itens-characteristics">Fresh fruits and vegetables</li>
+                    <br/>
+                    <li class="itens-characteristics">Quality</li>
+                    <br/>
+                    <li class="itens-characteristics">Fast delivery</li>
+                    <br/>
+                    <img class= "imageItem" src="./Images/babyEating.JPG">
+                </ul>
+            </div>
+
             <img src="./Images/vegetable.jpg" class="imageVegetable">
 
         </section>
 
         <section class="map">
-            <h3 class="title-center1">Our localization</h3>
-            <p>We are located in the largest city in Brazil</p>
+            <h3 class="title-center2">Our localization</h3>
+            <p class="map-p">We are located in the largest city in Brazil</p>
 
             <div class= "mapFrame">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.602562185511!2d-46.76374497799745!3d-23.634775646440964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53fbac8d8a0f%3A0xa8890c12cd495250!2sCampo%20Limpo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005775-230!5e0!3m2!1spt-BR!2sbr!4v1666790035208!5m2!1spt-BR!2sbr" 
-                width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                width="70%" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>    
         </section>
 
         <section class="videoAgro">
-            <h3 class="title-center1">Agrobusiness is pop, agrobusiness is tech, agrobusiness is everthing!</h3>
+            <h3 class="title-center2">Agrobusiness is pop,</h3>
+            <h3 class="title-center2">Agrobusiness is tech,</h3>
+            <h3 class="title-center2">Agrobusiness is everthing!</h3>
             <div class="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/zCh6bDG-Ul0" 
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -93,7 +97,7 @@
 
     </main>
 
-    <footer>
+    <footer class="footer-principal">
 
         <table>
             <thead>
@@ -118,8 +122,10 @@
             </tbody>
         </table>
 
+        <div class="logo-copy">
         <img class="logoFooter" src="./Images/fruitAndVegetablesLogoFV.jpg" alt="Brand logo Fruits And Vegetables">
         <p class ="copyright">&copy; Copyright - Brazilian Farmers Ltda. - 2022</p>
+        </div>    
     </footer>
 
 </body>

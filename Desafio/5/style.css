@@ -3,19 +3,20 @@ main{
 }
 
 header{
-    background: #264653;
-    padding: 20px 0;
+    background: linear-gradient(#264653,#E9C46A);
 }
 
 .imageLogo{
-    border: #E76F51 solid 5px;
-    margin-left: 1vw;
+    border: #000000 solid 1px;
+    width: 13em;
+    height: 11em;
+    margin: 3em;
+
 }
 
 .imageLogo:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
-
 .box{
     position: relative;
     width: 940 px;
@@ -199,36 +200,41 @@ form label, form legend{
     transform: scale(1.2);
 }
 
-footer{
-    text-align: center;
-    background: #E9C46A;
-    padding: 40px 0;
+
+.footer-principal{
+    background: linear-gradient(#264653,#E9C46A);
 }
 
 table{
     display: inline-block;
     position: relative;
-    margin: 0 15% 0 0;
+    margin: 0 15% 0 8%;
 }
+
 thead{
-    background-color: #264653;
-    color: #ffffff;
+    font-family: 'Indie Flower', cursive;
     font-weight: bold;
 }
 
 td, th{
-    border: 1px solid #000000;
+    font-family: 'Indie Flower', cursive;
     padding: 4px 10px;
 }
 
+
+.logo-copy{
+    display: inline-block;
+    padding-right: 25em;
+}
+
 .logoFooter{
-    margin: 0 30% 0 0;
+    margin-left: 8em;
     width: 90px;
     height: 80px;
 }
 
 .copyright{
     font-size: 15px;
-    margin: 20px 0 0 ;
     font-weight: bold;
+    margin-left: 1em;
 }
