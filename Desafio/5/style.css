@@ -36,6 +36,7 @@ nav li{
 }
 
 nav a{
+    text-shadow: 2px 2px 2px #999999;
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;

@@ -37,6 +37,7 @@ nav li{
 }
 
 nav a{
+    text-shadow: 2px 2px 2px #999999;
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -126,11 +127,12 @@ button{
 }
 
 .title-center1{
+    text-shadow: 2px 2px 2px #000000;
     font-weight: bold;
     font-family: 'Indie Flower', cursive;
     color: rgba(231,111,81,0.8);
     margin: 20px 0 0 0;
-    font-size: 26px;
+    font-size: 36px;
     text-align: center;
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: 0,5px;
