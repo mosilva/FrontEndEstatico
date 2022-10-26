@@ -65,6 +65,7 @@ Section{
 }
 
 .apresentation{    
+    font-family: 'Indie Flower', cursive;
     display: inline-block;
     vertical-align: top;
     text-align: justify;
@@ -115,6 +116,7 @@ button{
 }
 
 .articleItens{
+    font-family: 'Indie Flower', cursive;
     background-color: #264653;
     padding: 3%;
 }
@@ -193,6 +195,30 @@ thead{
 td, th{
     border: 1px solid #000000;
     padding: 4px 10px;
+}
+
+.map{
+    padding: 1em 0 3em;
+}
+
+.map p{
+    text-align: center;
+    margin: 0  auto;
+    padding: 1.5em 0 1.5em;
+}
+
+.mapFrame{
+    padding: 0 0 0 15em;
+}
+
+.videoAgro{
+    background: #264653;
+}
+
+.video{
+    border: #E76F51 solid 2vh;
+    width: 560px;
+    margin: 2em auto;
 }
 
 .logoFooter{

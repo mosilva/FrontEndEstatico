@@ -118,6 +118,7 @@ nav a:hover{
 
 
 #purchaseOrder{
+    color: #FFFFFF;
     border-bottom: 70px solid;
     border-color: #264653;
     border-top: 70px solid;
@@ -127,6 +128,7 @@ nav a:hover{
 #titlePurchase{
     text-transform: uppercase;
     color: #FFFFFF;
+    font-weight: bold;
     margin: 2px;
     font-size: 28px;
 }
