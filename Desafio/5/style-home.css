@@ -55,8 +55,10 @@ nav a:hover{
     color: #E76F51;
 }
 
-.fruitAndVegetables{
-    border: #E76F51 solid 1vh;
+.imageFruitAndVegetables{
+    opacity: 0.8;
+    box-shadow: 10px 10px 5px #000000;
+    /*border: #E76F51 solid 1vh;*/
     margin: 2% 5% 3% 8%;
     width: 40%;
     height: 30%;
@@ -126,7 +128,7 @@ button{
 .title-center1{
     font-weight: bold;
     font-family: 'Indie Flower', cursive;
-    color: #E76F51;
+    color: rgba(231,111,81,0.8);
     margin: 20px 0 0 0;
     font-size: 26px;
     text-align: center;
@@ -137,7 +139,7 @@ button{
 .title-center2{
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
-    color: #000000;
+    color: rgba(0,0,0,0.8);
     margin: 0 0 25px 0;
     font-size: 26px;
     text-align: center;
@@ -166,6 +168,10 @@ button{
     line-height: 1.5em;
 }
 
+.itens-characteristics::before{
+    content: "🍎 " ;
+}
+
 .itens-characteristics:first-child{
     font-size: 18px;
     font-weight: bold;
@@ -184,7 +190,7 @@ ul li{
     width: 20vw;
     height: 20vw;
     margin-top: 10%;
-    margin-left: -11%;
+    margin-left: -8%;
 }
 
 .imageVegetable{    
@@ -227,7 +233,7 @@ background: linear-gradient(#264653,#264653);
 }
 
 .video{
-    border: #E76F51 solid 1vh;
+    box-shadow: 10px 10px 5px #000000;
     width: 560px;
     height: 315px;
     margin: 0 auto;
@@ -247,11 +253,13 @@ table{
 }
 
 thead{
+    opacity: 0.8;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
 }
 
 td, th{
+    opacity: 0.8;
     font-family: 'Indie Flower', cursive;
     padding: 4px 10px;
 }
@@ -263,11 +271,13 @@ td, th{
 }
 
 .logoFooter{
+    opacity: 0.8;
     width: 90px;
     height: 80px;
 }
 
 .copyright{
+    opacity: 0.8;
     font-size: 15px;
     font-weight: bold;
     margin-left: 1em;

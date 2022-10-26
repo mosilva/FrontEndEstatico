@@ -82,12 +82,14 @@ nav a:hover{
 }
 
 .imageFruitsVegetables{
+    opacity: 0.6;
     width: 220px;
     height: 200px;
     border: 2px solid #000000
 }
 
 .imageFruitsVegetables:hover{
+    opacity: 1;
     border: 3px solid #264653
 }
 
@@ -212,11 +214,13 @@ table{
 }
 
 thead{
+    opacity: 0.8;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
 }
 
 td, th{
+    opacity: 0.8;
     font-family: 'Indie Flower', cursive;
     padding: 4px 10px;
 }
@@ -228,12 +232,14 @@ td, th{
 }
 
 .logoFooter{
+    opacity: 0.8;
     margin-left: 8em;
     width: 90px;
     height: 80px;
 }
 
 .copyright{
+    opacity: 0.8;
     font-size: 15px;
     font-weight: bold;
     margin-left: 1em;
