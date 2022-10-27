@@ -284,3 +284,7 @@ td, th{
     font-weight: bold;
     margin-left: 1em;
 }
+
+@media screen and (max-width: 480px){
+    
+}
