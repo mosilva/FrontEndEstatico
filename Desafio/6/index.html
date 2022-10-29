@@ -17,18 +17,17 @@
   <body>
     <header class="header">
       <button class="header__menu" aria-label="menu"><i></i></button>
+      
       <img
         src="./assets/img/logo.svg"
         alt="Brand logo HZC"
-        class="header__logo"
-      />
-      <button class="header__notification" aria-label="notification">
-        <i></i>
-      </button>
-    </header>
-    <main>
+        class="header__logo"/>
+      
+        <button class="header__notification" aria-label="notification"><i></i></button>
+    </header>    
+      
+    <nav class="lateral-menu">
     
-      <nav class="lateral-menu">
         <img src="./assets/img/logo.svg" alt="HZC brand logo" class="lateral-menu__logo" />
         <a href="#" class="lateral-menu__link lateral-menu__link--start lateral-menu__link--active">Start</a>
         <a href="#" class="lateral-menu__link lateral-menu__link--videos">Vídeos</a>
@@ -36,12 +35,29 @@
         <a href="#" class="lateral-menu__link lateral-menu__link--members">Members</a>
         <a href="#" class="lateral-menu__link lateral-menu__link--shirts">Shirts</a>
         <a href="#" class="lateral-menu__link lateral-menu__link--paintings">Paintings</a>
+    
       </nav>
+    
       <script src="index.js"></script>
-    </main>
-<footer class="footer">
-  <p class ="copyright">&copy; Copyright - HZC Ltda. - 2022</p>
-</footer>
+    
+      <main class="main"> 
+    
+        <h2 class="page-title">Start</h2>
+        <article class="card">
+    
+          <img src="assets/img/banner-mobile_1.png" alt="card banner" class="card__image"/>
+          <div class="card__content">
+            <p class="card__emphasis">Emphasis Video</p>
+            <h3 class="card__title">HZC - Title</h3>
+            <p class="card__perfil">Bruno Lopez</p>
+            <p class="card__info card__info--time">33 minutes</p>
+            <p class="card__info card__info--view">33 views</p>
+            <button class="card__button card__botton--play card__button--emphasis">Watch now!</button>
+          </div>
+    
+        </article>
+    
+      </main>
 
   </body>
 </html>
