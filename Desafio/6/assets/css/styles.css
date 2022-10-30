@@ -9,7 +9,7 @@ body{
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width:1140px) {
     body{
         display: grid;
         grid-template-columns: auto 1fr;
@@ -45,7 +45,7 @@ body{
 }
 
 
-@media screen and (min-width: 1140px){
+@media screen and (min-width:1140px){
     .header{
         background-color: #1D232A;
         display: grid;
@@ -170,7 +170,7 @@ body{
     content: "\e90a";
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1140px) {
     
     .lateral-menu{
         position: static;
@@ -199,7 +199,7 @@ body{
     gap: 16px
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width:1140px){
     .section{
         grid-template-columns: repeat(4,1fr);
     }
@@ -345,7 +345,7 @@ body{
     display: none;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1140px) {
 
     .card--emphasis{
         margin-bottom: 0;
