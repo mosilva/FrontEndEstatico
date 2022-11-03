@@ -4,6 +4,4 @@ function menuOnClick() {
     document.getElementById("menu-bg").classList.toggle("change-bg");
 }
 
-function header(){
-  $("#header").load("header.html"); 
-};
+
