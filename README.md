@@ -34,3 +34,7 @@
 <ol type = "i">
 <li><a href = "https://mosilva.github.io/FrontEndEstatico/Desafio/6/index.html" target="_blank"> Desafio 1<a/></li>
 </ol>
+<h3>Aula 9<h3/>
+<ol type = "i">
+<li><a href = "https://mosilva.github.io/FrontEndEstatico/Desafio/7/index.html" target="_blank"> Desafio 1<a/></li>
+</ol>
